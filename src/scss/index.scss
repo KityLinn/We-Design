@@ -1,3 +1,23 @@
+:root {
+  --main-bg-color: #111827 !important;
+}
+
+body {
+  background-color: var(--main-bg-color) !important;
+  color: #fff !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+input::placeholder {
+  color: #fff !important;
+}
+
+textarea::placeholder {
+  color: #fff !important;
+}
+
+
+
 //offcanvas styling
 
 $offcanvas-horizontal-width: 200px;
@@ -5,7 +25,16 @@ $offcanvas-horizontal-width: 200px;
 .offcanvas {
   bottom: auto !important;
   border-radius: 0px 0px 0px 10px !important;
-  background-color: #455d58 !important;
+  background-color: var(--main-bg-color) !important;
+}
+
+//nav styling fixed
+
+.nav-styling {
+ position: fixed;
+ top: 0;
+ background-color: rgba(0, 0, 0, 0.4);
+ backdrop-filter: 'blur(4px)';
 }
 
 //linkhover effect
@@ -36,43 +65,13 @@ $offcanvas-horizontal-width: 200px;
 // hero section styling
 
 .hero-banner {
-  background-image: url("../assets/hamburger-fries.png");
+  background-image: url("../assets/milad-fakurian-JTKKRK05NAM-unsplash.jpg");
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 90vh;
   position: relative;
-  color: white;
 }
 
-.hero-banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.25); 
-  z-index: 1;
-}
-
-.catering-banner {
-    background-image: url("../assets/catering-bergen.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  position: relative;
-  color: white;
-}
-.catering-banner::after {
-    content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.25); 
-  z-index: 1;
-}
 
 .text-box {
   background-color: rgba(0, 0, 0, 0.55);
@@ -90,6 +89,12 @@ $offcanvas-horizontal-width: 200px;
     padding: 2rem;
     max-width: 100%;
   }
+}
+
+.btn-custom {
+  background-color: #b45309 !important;
+  border-color: #b45309 !important;
+  color: #fff !important;
 }
 
 
