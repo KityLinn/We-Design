@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 export default function Contact() {
 
@@ -9,16 +9,16 @@ export default function Contact() {
       className="py-5 px-4 px-md-5"
 
     >
-      <div className="container-lg">
-        <div className="row align-items-center g-5">
-          <div className="col-md-6">
+      <Container>
+        <Row className="align-items-center g-5">
+          <Col md={6}>
             <h2 className="display-5 fw-bold text-white mb-4">Contact us!</h2>
             <p className="text-gray-400 fs-5">
               We would love to hear from you!
             </p>
-          </div>
-          <div className="col-md-6">
-            <form >
+          </Col>
+          <Col md={6}>
+            <form>
               <div className="row mb-3">
                 <div className="col-md-6">
                   <input
@@ -77,16 +77,16 @@ export default function Contact() {
                   required
                 />
               </div>
-              <button
+              <Button
                 type="submit"
                 className="btn btn-custom w-100 fw-semibold"
               >
                 Send Message
-              </button>
+              </Button>
             </form>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

@@ -1,3 +1,4 @@
+
 :root {
   --main-bg-color: #111827 !important;
 }
@@ -14,10 +15,8 @@ input::placeholder {
 
 textarea::placeholder {
   color: #fff !important;
+
 }
-
-
-
 //offcanvas styling
 
 $offcanvas-horizontal-width: 200px;
@@ -37,7 +36,8 @@ $offcanvas-horizontal-width: 200px;
  backdrop-filter: 'blur(4px)';
 }
 
-//linkhover effect
+//link hover effect
+
 .link-hover {
   display: inline-block;
   position: relative;
