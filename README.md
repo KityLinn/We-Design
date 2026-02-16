@@ -1,16 +1,47 @@
-# React + Vite
+# We Design
+We Design is a one page design website. Preseting a fictional design company, showing off their designs and who they are.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It contains:
 
-## React Compiler
+A single page with a Hero Section, About section, Awards section, Team section.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Description
 
-## Expanding the ESLint configuration
+The booking site is aimed at a general audience of adults, it has a professional looking and simple design allowing for easy navigation. It lets the user register an account through the API, register as either a venue manager or not, then login and place fictional bookings as well as create fictional venues.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Getting Started
+
+### Installing
+
+You can clone the repo from here:
+
+```bash
+git clone https://github.com/KityLinn/We-Design
+```
+```sh
+npm i
+```
+```sh
+npm run build
+```
+
+
+## dependencies
+
+-"bootstrap": "^5.3.8",
+-"lucide-react": "^0.563.0",
+-"react": "^19.2.0",
+-"react-bootstrap": "^2.10.10",
+-"react-dom": "^19.2.0",
+-"react-scroll": "^1.9.3",
+-"sass": "^1.97.3"
+
+
+
+## Contact
+
+[My Email](LinVik27260@stud.noroff.no)
